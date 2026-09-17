@@ -65,3 +65,17 @@ footer {
 }
 
 /* TODO: make .nav-links stack vertically and show .nav-toggle below 600px */
+li a{
+  margin-left:15px;
+  color:#d2691e;
+  text-decoration:none;
+  font-weight: bold;
+
+}
+li a:hover{
+  text-decoration: underline;
+}
+a{
+  color:#d2691e;
+  text-decoration: none;
+}
