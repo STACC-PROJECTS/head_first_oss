@@ -2,6 +2,7 @@
   --primary-color: #782431;
   --accent-color: #e8ef0af0;
   --text-color: #222;
+  --header-color: #23F502;
 }
 
 body {
@@ -16,7 +17,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: var(--primary-color);
+  /* Does the header has the same color as intended */
+  background-color: var(--header-color);
 }
 
 .nav-links {
@@ -51,9 +53,7 @@ body {
   padding: 0 1rem;
 }
 
-.highlight {
-  background-color: var(--accent-color);
-}
+
 
 footer {
   position: sticky;
