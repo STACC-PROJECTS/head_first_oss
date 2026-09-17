@@ -55,9 +55,7 @@ body {
   padding: 0 1rem;
 }
 
-.highlight {
-  background-color: var(--accent-color);
-}
+
 
 footer {
   position: sticky;
