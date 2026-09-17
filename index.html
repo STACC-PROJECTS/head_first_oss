@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -10,48 +11,156 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
+
 <body>
+
   <header>
     <nav class="navbar">
-      <div class="logo">Chaayakudi</div>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="https://www.youtube.com/watch?v=Aq5WXmQQooo">About</a></li>
-        <li><a href="wrapped.html">Wrapped</a></li>
-        <!-- TODO: add a Leaderboard link once leaderboard.html exists -->
-      </ul>
-      <button id="nav-toggle" class="nav-toggle">Menu</button>
-    </nav>
+
+```
+  <!-- Chaayakudi logo -->
+  <div class="logo">
+
+    <!-- Tea cup SVG -->
+    <svg
+      width="60"
+      height="60"
+      viewBox="0 0 100 100"
+      xmlns="http://www.w3.org/2000/svg"
+      aria-label="Chaayakudi tea logo"
+    >
+
+      <!-- Steam -->
+      <path
+        d="M38 30 C28 22, 42 17, 35 8"
+        fill="none"
+        stroke="white"
+        stroke-width="4"
+        stroke-linecap="round"
+      />
+
+      <path
+        d="M55 30 C45 22, 59 17, 52 8"
+        fill="none"
+        stroke="white"
+        stroke-width="4"
+        stroke-linecap="round"
+      />
+
+      <!-- Tea cup -->
+      <path
+        d="M20 38 H70 V60
+           C70 73 61 81 46 81
+           H44
+           C29 81 20 73 20 60 Z"
+        fill="white"
+      />
+
+      <!-- Tea -->
+      <path
+        d="M23 42 H67 V48 H23 Z"
+        fill="#6f4e37"
+      />
+
+      <!-- Handle -->
+      <path
+        d="M70 46 H78
+           C88 46 88 64 78 64
+           H70"
+        fill="none"
+        stroke="white"
+        stroke-width="6"
+        stroke-linecap="round"
+      />
+
+      <!-- Saucer -->
+      <path
+        d="M15 87 H82"
+        fill="none"
+        stroke="white"
+        stroke-width="5"
+        stroke-linecap="round"
+      />
+
+    </svg>
+
+    <!-- Text beside logo -->
+    <span style="
+      color: white;
+      font-size: 16px;
+      font-weight: bold;
+      margin-left: 10px;
+      white-space: nowrap;
+    ">
+      chaya kudich marik
+    </span>
+
+  </div>
+
+
+  <ul class="nav-links" id="nav-links">
+
+    <li>
+      <a href="index.html">Home</a>
+    </li>
+
+    <li>
+      <a href="https://www.youtube.com/watch?v=Aq5WXmQQooo">
+        About
+      </a>
+    </li>
+
+    <li>
+      <a href="wrapped.html">Wrapped</a>
+    </li>
+
+    <!-- TODO: add a Leaderboard link once leaderboard.html exists -->
+
+  </ul>
+
+
+  <button id="nav-toggle" class="nav-toggle">
+    Menu
+  </button>
+
+</nav>
+```
+
   </header>
 
   <main>
-    <section class="heroo">
-      <img src="images/chayakudi-hero.jpg">
-      <h1>Chaayakudi</h1>
-      <h4>Map your chaya spots, split the bill, get your Wrapped</h4>
-      <p>Find the best chaya stops around CUSAT, split the bill with your group
-        in two taps, and unlock your squad's Chayakudi Wrapped at the end of
-        the semester.</p>
-    </section>
 
-    <section class="spots">
-      <h2>This Week's Popular Chaya Spots</h2>
-      <ul id="spot-list">
-        <li>Gate Chaya Point</li>
-        <li>Lakeside Tea Corner</li>
-        <li>SOE Canteen Chaya</li>
-        <li>WINGS OF FIRE, by APJ Abdul Kalam</li><!-- BUG: Random Book's name instead of Chaya Spot -->
-        Library Chaya Kada
-        Sports Ground Tea Point <!--TODO: fix broken list structure-->
-      </ul>
-    </section>
-  </main>
+```
+<section class="heroo">
 
-  <footer>
-    <p>&copy; 20222 Chaayakudi. Built by and for CUSAT students.</p>
-  </footer>
+  <img src="images/chayakudi-hero.jpg">
 
-  <script src="js/main.js"></script>
-</body>
+  <h1>Chaayakudi</h1>
 
-</html>
+  <h4>
+    Map your chaya spots, split the bill, get your Wrapped
+  </h4>
+
+  <p>
+    Find the best chaya stops around CUSAT, split the bill with your group
+    in two taps, and unlock your squad's Chayakudi Wrapped at the end of
+    the semester.
+  </p>
+
+</section>
+
+
+<section class="spots">
+
+  <h2>This Week's Popular Chaya Spots</h2>
+
+  <ul id="spot-list">
+
+    <li>Gate Chaya Point</li>
+
+    <li>Lakeside Tea Corner</li>
+
+    <li>SOE Canteen Chaya</li>
+
+    <li>WINGS OF FIRE, by APJ Abdul
+```

@@ -6,13 +6,22 @@
   --header-color: #23F502;
 }
 
+
+/* =========================
+   BASIC PAGE
+   ========================= */
+
 body {
   font-family: 'Segoe UI', sans-serif;
-  colour: var(--text-color);
-  /* TODO: styles below aren't applying, why? */
+  color: var(--text-color);
   margin: 0;
   padding: 0;
 }
+
+
+/* =========================
+   NAVBAR
+   ========================= */
 
 .navbar {
   display: flex;
@@ -23,10 +32,56 @@ body {
   background-color: var(--header-color);
 }
 
+
+/* =========================
+   LOGO
+   ========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+
+/* =========================
+   NAVIGATION LINKS
+   ========================= */
+
+
+/* =========================
+   LOGO
+   ========================= */
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo img {
+  width: 150px;
+  height: auto;
+  display: block;
+}
+
+
+/* =========================
+   NAVIGATION LINKS
+   ========================= */
+
 .nav-links {
   display: flex;
   gap: 1.5rem;
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 .nav-links a {
@@ -34,9 +89,23 @@ body {
   text-decoration: none;
 }
 
+.nav-links a:hover {
+  color: var(--accent-color);
+}
+
+
+/* =========================
+   MENU BUTTON
+   ========================= */
+
 .nav-toggle {
   display: none;
 }
+
+
+/* =========================
+   HERO
+   ========================= */
 
 .hero {
   text-align: center;
@@ -49,23 +118,98 @@ body {
   border-radius: 8px;
 }
 
+.hero h1 {
+  margin-top: 1.5rem;
+  font-size: 3rem;
+}
+
+.hero h4 {
+  font-size: 1.2rem;
+}
+
+.hero p {
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+/* =========================
+   CHAYA SPOTS
+   ========================= */
+
 .spots {
   max-width: 700px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
+.spots h2 {
+  text-align: center;
+}
+
+#spot-list {
+  padding-left: 0;
+  list-style: none;
+}
+
+#spot-list li {
+  background-color: #f5ebe0;
+  margin: 10px 0;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+
+/* =========================
+   HIGHLIGHT
+   ========================= */
+
 .highlight {
   background-color: var(--accent-color);
 }
 
+
+/* =========================
+   FOOTER
+   ========================= */
+
 footer {
-  position: sticky;
-  bottom: -20px;
   text-align: center;
   padding: 1rem;
   background-color: var(--primary-color);
   color: white;
 }
 
-/* TODO: make .nav-links stack vertically and show .nav-toggle below 600px */
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+  .navbar {
+    flex-wrap: wrap;
+  }
+
+  .nav-toggle {
+    display: block;
+    background: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  .nav-links {
+    display: none;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  .nav-links.active {
+    display: flex;
+  }
+
+}
