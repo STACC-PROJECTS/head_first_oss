@@ -28,6 +28,13 @@ body {
   list-style: none;
 }
 
+.logo{
+  font-weight: bold;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 1.8rem;
+}
+
 .nav-links a {
   color: white;
   text-decoration: none;
