@@ -8,7 +8,7 @@ def split_bill(total_amount, members):
 
     total_amount is in rupees (int). members is a list of member names.
     """
-    share = total_amount // len(members)  # BUG: integer division drops the remainder
+    share = total_amount / len(members)  # BUG: integer division drops the remainder
     return share
 
 
