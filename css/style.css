@@ -1,11 +1,11 @@
 :root {
-  --primary-color: #6f4e37;
-  --accent-color: #f9a825;
+  --primary-color: #782431;
+  --accent-color: #e8ef0af0;
   --text-color: #222;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Times New Roman', arial;
   colour: var(--text-color); /* TODO: styles below aren't applying, why? */
   margin: 0;
   padding: 0;
