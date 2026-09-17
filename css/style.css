@@ -8,10 +8,9 @@
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  colour: var(--text-color);
-  /* TODO: styles below aren't applying, why? */
-  margin: 0;
-  padding: 0;
+  color: var(--text-color); /* TODO: styles below aren't applying, why? */
+  margin: 1;
+  padding: 1;
 }
 
 .navbar {
@@ -55,9 +54,7 @@ body {
   padding: 0 1rem;
 }
 
-.highlight {
-  background-color: var(--accent-color);
-}
+
 
 footer {
   position: sticky;
