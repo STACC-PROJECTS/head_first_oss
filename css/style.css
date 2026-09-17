@@ -7,17 +7,10 @@
 }
 
 body {
-<<<<<<< HEAD
-  font-family: 'Segoe UI', sans-serif;
+  font-family: 'Georgia', serif;
   color: var(--text-color); /* TODO: styles below aren't applying, why? */
   margin: 1;
   padding: 1;
-=======
-  font-family: 'Caveat', sans-serif;
-  colour: var(--text-color); /* TODO: styles below aren't applying, why? */
-  margin: 0;
-  padding: 0;
->>>>>>> 4fc517c (name fixed in last variable)
 }
 
 .navbar {
