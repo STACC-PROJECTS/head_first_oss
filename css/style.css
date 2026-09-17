@@ -2,13 +2,14 @@
   --primary-color: #794825;
   --accent-color: #f8b853;
   --text-color: #222;
+  --header-color: #23F502;
 }
 
 body {
   font-family: 'Segoe UI', sans-serif;
-  colour: var(--text-color); /* TODO: styles below aren't applying, why? */
-  margin: 0;
-  padding: 0;
+  color: var(--text-color); /* TODO: styles below aren't applying, why? */
+  margin: 1;
+  padding: 1;
 }
 
 .navbar {
@@ -16,7 +17,8 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: var(--primary-color);
+  /* Does the header has the same color as intended */
+  background-color: var(--header-color);
 }
 
 .nav-links {
@@ -51,9 +53,7 @@ body {
   padding: 0 1rem;
 }
 
-.highlight {
-  background-color: var(--accent-color);
-}
+
 
 footer {
   position: sticky;
