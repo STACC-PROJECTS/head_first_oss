@@ -13,6 +13,12 @@ body {
   padding: 1;
 }
 
+.logo {
+  font-style: italic;
+  color: black;
+  font-size: xx-large;
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
