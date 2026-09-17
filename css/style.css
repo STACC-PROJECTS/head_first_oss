@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #6f4e37;
-  --accent-color: #f9a825;
+  --primary-color: #794825;
+  --accent-color: #f8b853;
   --text-color: #222;
 }
 
@@ -26,7 +26,7 @@ body {
 }
 
 .nav-links a {
-  color: white;
+  color: rgb(237, 244, 196);
   text-decoration: none;
 }
 
@@ -37,7 +37,7 @@ body {
 .hero {
   text-align: center;
   padding: 4rem 2rem;
-  background-color: #f5ebe0;
+  background-color: #ae9c88;
 }
 
 .hero img {
@@ -61,7 +61,7 @@ footer {
   text-align: center;
   padding: 1rem;
   background-color: var(--primary-color);
-  color: white;
+  color: rgb(228, 165, 165);
 }
 
 /* TODO: make .nav-links stack vertically and show .nav-toggle below 600px */
