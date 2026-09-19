@@ -1,16 +1,15 @@
 :root {
-  /* This color should be followed by the header and footer */
-  --primary-color: #6f4e37;
-  --accent-color: #f9a825;
+  --primary-color: #782431;
+  --accent-color: #e8ef0af0;
   --text-color: #222;
   --header-color: #23F502;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  color: var(--text-color); /* TODO: styles below aren't applying, why? */
-  margin: 1;
-  padding: 1;
+  font-family: 'Times New Roman', arial;
+  colour: var(--text-color); /* TODO: styles below aren't applying, why? */
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
