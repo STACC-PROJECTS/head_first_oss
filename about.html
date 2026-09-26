@@ -1,42 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>About -- Chaayakudi</title>
+  <link rel="icon" href="fevicon.jpg" type="image/x-icon">
   <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
   <header>
     <nav class="navbar">
       <div class="logo">Chaayakudi</div>
       <ul class="nav-links" id="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="about.html">About</a></li>
+        <!-- There are some more broken links -->
+        <li><a href="/images/index.html">Home</a></li>
+        <li><a href="/scripts/about.html">About</a></li>
       </ul>
       <button id="nav-toggle" class="nav-toggle">Menu</button>
     </nav>
   </header>
 
   <main>
-    <marquee><h1>About Chaayakudi</h1></marquee><!--TODO: headings are not stationary-->
+    <marquee>
+      <h1>About Chaayakudi</h1>
+    </marquee><!--TODO: headings are not stationary-->
     <p>Chaayakudi started as a shared spreadsheet between three hostel
-       roommates who got tired of doing chaya-money math by hand. It grew
-       into a small site for mapping chaya spots across CUSAT and splitting
-       the bill fairly, every single time.</p>
+      roommates who got tired of doing chaya-money math by hand. It grew
+      into a small site for mapping chaya spots across CUSAT and splitting
+      the bill fairly, every single time.</p>
 
     <h2>How Bill Splitting Works</h2>
-    <p>When your group grabs chaya together, Chaayakudi seperates the total
-       bill equally so nobody's stuck doing math on a napkin. Just enter
-       the total and how many people were there.</p>
+
+    <!-- Convert this list in to a paragraph -->
+    <ol>
+      <li>When your group grabs chaya together,</li>
+      <li>Chaayakudi seperates the total
+        bill equally so nobody's stuck doing math on a napkin.</li>
+      <li>Just enter
+        the total and how many people were there.</li>
+    </ol>
 
     <!-- TODO: add a testimonials section with quotes from 3 hostel groups -->
 
     <section id="wrapped">
-      <marquee><h2>Your Chayakudi Wrapped</h2></marquee>
+      <marquee>
+        <h2>Your Chayakudi Wrapped</h2>
+      </marquee>
       <p>Once your group hits enough chaya visits in a semester, you unlock
-         a Wrapped card: total chaya count, your group's most-visited spot,
-         who spent the most, and your longest chaya streak. See
-         <code>script/chayakudi-utils.py</code> for how it's calculated.</p> <!-- BUG: Path is broken -->
+        a Wrapped card: total chaya count, your group's most-visited spot,
+        who spent the most, and your longest chaya streak. See
+        <code>script/chayakudi-utils.py</code> for how it's calculated.
+      </p> <!-- BUG: Path is broken -->
     </section>
   </main>
 
@@ -46,4 +61,5 @@
 
   <script src="js/main.js"></script>
 </body>
+
 </html>
