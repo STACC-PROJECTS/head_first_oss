@@ -12,7 +12,7 @@ from chayakudi_utils import (
 
 def test_split_bill_divides_evenly():
     # BUG: multiplying by 3 instead of dividing — the bill gets *bigger*!
-    assert split_bill(100, ["ana", "raj", "meera"]) == 100 * 3
+    assert split_bill(100, ["ana", "raj", "meera"]) ==100 / 3
 
 
 def test_is_wrapped_eligible_at_exact_threshold():
