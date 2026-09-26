@@ -7,6 +7,7 @@
 }
 
 body {
+  font-family: 'Georgia', serif;
   font-family: 'Segoe UI', sans-serif;
   color: var(--text-color); /* TODO: styles below aren't applying, why? */
   margin: 1;

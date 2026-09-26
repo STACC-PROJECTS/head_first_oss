@@ -20,7 +20,7 @@ def is_wrapped_eligible(visit_count):
 def format_member_name(first_name, last_name):
     """Return 'First Last' with each part title-cased."""
     first = first_name.strip().title()
-    last = first_name.strip().title()  # BUG: should use last_name
+    last = last_name.strip().title()  # BUG: should use last_name
     return f"{first} {last}"
 
 
